@@ -221,13 +221,18 @@ Un bouton **"Réinitialiser les paramètres"** est disponible pour restaurer tou
 
 # TO RUN : 
 ## 1. Créer et activer l'environnement virtuel
+```bash
 python3 -m venv venv && source venv/bin/activate
-
+```
 ## 2. Installer les dépendances
+```bash
 pip install -r requirements.txt
-
+```
 ## 3. Télécharger le modèle MediaPipe (7,5 Mo — OBLIGATOIRE)
+```bash
 curl -O "https://storage.googleapis.com/mediapipe-models/hand_landmarker/hand_landmarker/float16/1/hand_landmarker.task"
-
+```
 ## 4. Lancer iPiano
+```bash
 python ipiano.py
+```
